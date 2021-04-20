@@ -10,7 +10,7 @@ Program Purpose:
 
 import streamlit as st
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 def scatter(df1):
     countries = df1['Country']
